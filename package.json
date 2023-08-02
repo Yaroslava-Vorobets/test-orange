@@ -1,0 +1,26 @@
+{
+  "name": "test-orange",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "homepage": "https://Yaroslava-Vorobets.github.io/test-orange",
+  
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaroslava-Vorobets/test-orange.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.64.2"
+  },
+  "devDependencies": {   
+    "parcel": "^2.9.3"
+  }
+}
