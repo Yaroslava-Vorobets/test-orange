@@ -5,12 +5,12 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "homepage": "https://Yaroslava-Vorobets.github.io/test-orange",
-  
   "scripts": {
     "start": "parcel ./src/*.html --no-cache",
-    "build": "parcel build ./src/*.html --public-url /test-orange/"
+    "build": "parcel build ./src/*.html --public-url /test-orange/",
+    "lint": "eslint --fix --ext .js,.jsx ."
   },
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/Yaroslava-Vorobets/test-orange.git"
   },
@@ -20,7 +20,8 @@
   "dependencies": {
     "sass": "^1.64.2"
   },
-  "devDependencies": {   
+  "devDependencies": {
+    "eslint-plugin-react": "^7.33.1",
     "parcel": "^2.9.3"
   }
 }
