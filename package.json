@@ -7,8 +7,8 @@
   "homepage": "https://Yaroslava-Vorobets.github.io/test-orange",
   
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel ./src/*.html --no-cache",
+    "build": "parcel build ./src/*.html --public-url /test-orange/"
   },
    "repository": {
     "type": "git",
