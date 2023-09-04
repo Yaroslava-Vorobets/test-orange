@@ -1,14 +1,16 @@
 {
   "name": "test-orange",
-  "version": "1.0.0",  
+  "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "homepage": "https://Yaroslava-Vorobets.github.io/test-orange",
   "scripts": {
-  "start": "parcel ./src/index.html --no-cache",
-  "build": "parcel build src/index.html/test-orange/"
-   
+    "start": "parcel ./src/index.html --no-cache",
+    "build": "parcel build src/index.html"
+  },
+  "@parcel/resolver-default": {
+    "packageExports": true
   },
   "repository": {
     "type": "git",
@@ -25,8 +27,8 @@
     "sass": "^1.64.2"
   },
   "devDependencies": {
+    "@parcel/resolver-glob": "^2.9.3",
     "@parcel/transformer-sass": "^2.9.3",
-   
     "parcel": "^2.9.3",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
